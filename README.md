@@ -7,20 +7,24 @@ My personal linux-related settings
 ##Disclaimer (All done on RHEL8 AWS box)
 
 .vimrc (vim) and nvim files included in files above
+    
     .vimrc goes in ~
     nvim files go in ~/.config/nvim
 
 Possible alias' for bash_profile:
+    
     alias vi="vim"
     alias nvim="sudo /usr/local/bin/nvim"
     alias ls="ls -altr --color-auto"
 
 Install FZF (need to do for each user):
+    
     git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
     ~/.fzf/install
 	Yes to all options
 
 Install vim-enhanced:
+    
     yum install vim
 
     If you don't want node modules, etc. to show up in in fzf:
@@ -32,6 +36,7 @@ Install vim-enhanced:
 		    fi
 
 If using neo-vim instead...
+    
     // yum install curl
     // yum install fuse-libs
     curl -o /usr/local/bin/nvim -LO https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage
@@ -52,6 +57,7 @@ If using neo-vim instead...
     In vim: :PlugInstall
 
 mobaXterm Settings:
+    
     session settings -> Terminal Settings -> Terminal Type = 'xterm-256color'
 	session-settings -> terminal settings -> Customize Terminal Colors Scheme (loading symbol on screen):
 		Background: 40, 40, 40
@@ -61,6 +67,7 @@ mobaXterm Settings:
 	Top Bar Settings => SSH -> SSH keepalive ON
 
 Putty Settings:
+    
     In putty, make sure Connection -> Data -> Terminal-type string = 'xterm-256color'
 	window -> colours:
 		Default Foreground: 213,196,161
