@@ -13,7 +13,7 @@ My personal linux-related settings
     
     If .vimrc doesn't auto-install plugins when opened in vim you might need to install curl
 
-Possible alias' for bash_profile:
+Possible alias' for .bash_profile or .profile:
     
     alias vi="vim"
     alias nvim="sudo /usr/local/bin/nvim"
