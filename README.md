@@ -4,12 +4,14 @@ My personal linux-related settings
 
 # Content
 
-##Disclaimer (All done on RHEL8 AWS box)
+##Disclaimer (All done on RHEL8 AWS box, also tested vim on ubuntu)
 
 .vimrc (vim) and nvim files included in files above
     
     .vimrc goes in ~
     nvim files go in ~/.config/nvim
+    
+    If .vimrc doesn't auto-install plugins when opened in vim you might need to install curl
 
 Possible alias' for bash_profile:
     
