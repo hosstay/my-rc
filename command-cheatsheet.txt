@@ -1,0 +1,28 @@
+# For some new or frequently forgotten commands
+
+tmux
+---------
+outside
+---
+start session: "tmux"
+start named session: "tmux new -s (name of session)"
+view sessions: "tmux ls"
+enter(attach to) session: "tmux attach -t (name of session)"
+rename session: "tmux rename-session -t (current name) (new name)"
+stop session: "tmux kill-session -t (name of session)"
+
+inside
+---
+exit(detach from) session: "Ctrl + b, d"
+create new vertical split: "Ctrl + b, %"
+create new horizontal split: "Ctrl + b, ""
+go to specific window: "Ctrl + b, (number of window)"
+rename window: "Ctrl + b, ,"
+
+vim
+---------
+split vertically: "Ctrl + w, v"
+split horizontally: "Ctrl + w, s"
+create new line below current and start editing: "o"
+open nerdtree: <leader>f
+open fzf: <leader>t
