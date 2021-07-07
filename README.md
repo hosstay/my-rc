@@ -19,6 +19,12 @@ Possible alias' for .bash_profile or .profile:
     alias nvim="sudo /usr/local/bin/nvim"
     alias ls="ls -altr --color-auto"
 
+Install tmux:
+    
+    sudo yum install tmux
+    or
+    sudo apt install tmux
+
 Install FZF (need to do for each user):
     
     git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
