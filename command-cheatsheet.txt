@@ -16,6 +16,7 @@ inside
 exit(detach from) session: "Ctrl + b, d"
 create new vertical split: "Ctrl + b, %"
 create new horizontal split: "Ctrl + b, ""
+create a new window: "Ctrl + b, c"
 go to specific window: "Ctrl + b, (number of window)"
 rename window: "Ctrl + b, ,"
 
