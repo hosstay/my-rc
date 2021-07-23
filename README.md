@@ -24,6 +24,8 @@ Install tmux:
     sudo yum install tmux
     or
     sudo apt install tmux
+    
+    put .tmux.conf in ~
 
 Install FZF (need to do for each user):
     
