@@ -4,7 +4,7 @@ My personal linux-related settings
 
 # Content
 
-##Disclaimer (All done on RHEL8 AWS box, also tested vim/tmux on ubuntu)
+##Disclaimer (All (except tmux) done on RHEL8 AWS box, also tested vim/tmux on ubuntu)
 
 .vimrc (vim) and nvim files included in files above
     
