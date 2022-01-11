@@ -85,3 +85,11 @@ Putty Settings:
 		Default Background: 40,40,40
 		Default Bold Background: 60,56,54
     connection -> seconds between keepalives = 1
+
+VS Code Settings:
+    
+    To make the VS Code terminal mirror the .bashrc/.profile settings edit $HOME/.config/Code/User/settings.json with the following:
+    Add a line at the bottom of the JSON:
+    	"terminal.integrated.shellArgs.linux": ["-l"]
+	
+    Can do .windows or .osx as well for those OS.
